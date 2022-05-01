@@ -1,13 +1,13 @@
 import React,{useEffect,useState} from 'react'
 
 function UseEffect() {
-    const [count,setCount]=useState(1)
+    const [cout,setCount]=useState(1)
     useEffect(()=>{
-        console.log(count);
-    },[count==5])
+        console.log(cout);
+    },[cout == 5])
   return (
-    <div><p>{count} The useeffect hook  is replacement for componentWillUnmount,componentDidMount,componentDidUpdate</p>
-        <button onClick={()=>setCount(count+1)}>Update State</button>
+    <div><p>{cout} The useeffect hook  is replacement for componentWillUnmount,componentDidMount,componentDidUpdate</p>
+        <button onClick={()=>setCount(cout+1)}>Update State</button>
     </div>
   )
 }

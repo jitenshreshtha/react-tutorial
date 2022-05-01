@@ -1,12 +1,13 @@
 import './App.css';
 import Home from './Components/Home/Home';
+import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
     <div>
       <h1>Hello World</h1>
-      <p>This is my last tutorial.</p>
       <Home />
+      <Profile text="Hello" data={{name:'Jiten'}}/>
     </div>
   );
 }

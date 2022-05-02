@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './Components/Form/Form';
 import Home from './Components/Home/Home';
 import UseEffect from './Components/Hooks/UseEffect';
 import UseState from './Components/Hooks/UseState';
@@ -14,6 +15,7 @@ function App() {
       <Toggle />
       <UseState />
       <UseEffect />
+      <Form />
       
     </div>
   );
